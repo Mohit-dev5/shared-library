@@ -2,7 +2,7 @@
 
 def call(){
     echo "Pushing the Build Image into the ACR repo through shared library concept"
-        .. Use Below Comments when using Dockerhub
+        //Use Below Comments when using Dockerhub
         //withCredentials([usernamePassword(credentialsId: 'ACR', passwordVariable: 'PASS', usernameVariable: 'USER')]) {
         //sh 'docker build -t advisingbank/demo-app .'
         //sh "echo $PASS | docker login -u $USER --password-stdin"
